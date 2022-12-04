@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="right-wrapper">
+    <div class="spinnerIconWrapper">
+        <div class="spinnerIcon"></div>
+    </div>
+    <div class="finished-text">
+      <span class="do">Liu</span> 
+        <span class="you">Liu</span> 
+        <span class="love">.......................... Đồ</span>
+        <span class="me">chó</span>
+    </div>
+</div>
+<!-- <a href="love.html" class="back">Trở lại</a> -->
+<input type="button" style="position: absolute; top:0;right:0;font-size: 20px;color: white;background-color: inherit; border: none;cursor: pointer;" value="Trở lại">
+
+<script>
+  let back = document.querySelector('input');
+
+  back.addEventListener('click', ()=> {
+    history.back();
+  });
+</script>
+</body>
+</html>
+
