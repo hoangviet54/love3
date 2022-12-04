@@ -456,8 +456,9 @@ body {
 }
 
 .box h3{
-	margin: 2.5rem auto;
 	text-transform: uppercase;
+	position: relative;
+	right: 50px;
 }
 
 .animate-charcter
